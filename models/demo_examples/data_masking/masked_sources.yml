@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_workday
+    database: raw
+    schema: workday
+    tables:
+      - name: employee
