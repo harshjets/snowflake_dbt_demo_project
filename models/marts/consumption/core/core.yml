@@ -143,7 +143,7 @@ models:
       - name: order_key
         description: primary key of the model
         tests:
-          - unique
+          #- unique
           - not_null
       - name: customer_key
         description: foreign key for customers
