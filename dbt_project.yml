@@ -67,12 +67,12 @@ models:
         core:
           +required_docs: true
           +required_tests:
-            "unique": 1
-            "not_null": 1
+            unique: 1
+            not_null: 1
         
           fct_orders:
             +required_tests:
-              "orders__assert_positive_price": 1
+              orders__assert_positive_price: 1
             
 # seeds:
 #   tpch:
