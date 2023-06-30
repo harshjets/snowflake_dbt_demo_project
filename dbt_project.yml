@@ -57,9 +57,9 @@ models:
           #- "{{validate_model_name(this, ruleset='demos')}}"
           #- "{{validate_column_names(this)}}"
 
-    marts:
-      raw:
+    raw:
         +materialized: view
+    marts:  
       analytics:
         +materialized: view
       consumption:
